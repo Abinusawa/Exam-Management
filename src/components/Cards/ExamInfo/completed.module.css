@@ -1,0 +1,120 @@
+
+.container {
+    width:  400px;
+    height:  350px;
+    /* padding: 2px 50px 15px 25px; */
+    gap: 13px;
+    border-radius: 6px;
+    background: white;
+    margin-top: 10px;
+    /* box-shadow: 0px 0px 30px 0px rgba(1, 41, 112, 0.1); */
+    /* border: 2px solid red; */
+}
+
+.rightSideTitle {
+    display: flex;
+    gap: 140px ;
+    margin-left: 20px;
+    padding-top: 1rem;
+}
+
+
+.Inner_container {
+    width: 355px;
+    height: 260px;
+    /* padding: 20px 32px 20px 32px; */
+    /* gap: 11px; */
+    border-radius: 6px;
+    margin-top: 10px;
+    margin-left: 20px;
+    border: 2px solid rgba(136, 145, 139, 0.1);
+    box-shadow: 0px 2px 4px 0px rgba(193, 193, 193, 0.15);
+
+}
+
+.innerHug {
+    width:  300px;
+    height: 191px;
+    margin-left: 20px;
+    margin-top: 20px;
+    /* border: 2px solid red ; */
+    /* gap: 14px; */
+}
+
+.Title {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+}
+
+.start {
+    display: flex;
+    width: 350px;
+    height: 24px;
+    gap: 15px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    margin-top: 20px;
+    color: rgba(136, 145, 139, 1);
+}
+
+
+.statusText{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    margin-top: 20px;
+    color: rgba(23, 187, 39, 1);
+}
+
+.viewBtn__green {
+    background: rgba(23, 187, 39, 1);
+    border: none;
+    border-radius: 5px;
+    margin-left: 20px;
+    width: 310px;
+    height: 40px;
+    cursor: pointer;
+    color: #FFF;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .container {
+        width: 300px;
+        margin-top: 10px;
+        
+        /* border: 2px solid red ; */
+    }
+    .rightSideTitle {
+        width: 260px;
+        gap: 50px;
+        
+    }
+    .Inner_container {
+        /* border: 2px solid blue; */
+        width: 300px;
+        margin: 15px auto;
+    }
+    .start {
+        display: flex;
+        width: 300px;
+        height: 24px;
+        gap: 5px;
+        font-size: 14px;
+    }
+    .viewBtn__green {
+        width: 250px;
+    }
+
+}
+
+@media screen and (min-width: 600px) {
+   
+}
+

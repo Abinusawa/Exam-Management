@@ -1,0 +1,10 @@
+.Wrapper {
+    width:  1059px;
+    height: 447px;
+    border: 2px solid red;
+    /* gap: 33px; */
+}
+
+.inputDetails {
+    width: 25px;
+}

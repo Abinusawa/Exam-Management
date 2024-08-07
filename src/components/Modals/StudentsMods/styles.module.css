@@ -1,0 +1,131 @@
+.container {
+    width: 1140px;
+    height: 919px;
+    background-color: white;
+    margin-left: 10px;
+    /* top: 1191px;
+    left: 2326px; */
+    border-radius: 6px;
+    border: 0.5px solid white;
+
+}
+
+.Close {
+    width: 100px;
+    height: 40px;
+    margin-top: 30px;
+    margin-left: 35px;
+    /* padding: 4px 0px 0px 10px; */
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 550;
+    cursor: pointer;
+    border-radius: 8px;
+    border: 2px solid rgb(184, 177, 177);
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+
+
+.sectionWrapper {
+    width: 1078px;
+    height: 720px;
+    margin: 15px auto;
+
+    /* top: 138px;
+    left: 31px; */
+    /* gap: 50px; */
+
+}
+
+.formContainer {
+    width:  1078px;
+    height: 720px;
+
+}
+
+
+
+.upload {
+    width: 231.88px;
+    height: 265px;
+    /* padding: 30px; */
+    margin-top: 50px;
+    border-radius: 10.8px;
+    border: 2px solid rgb(209, 209, 209);
+}
+
+
+.uploadcanvas {
+    width: 171.33px;
+    height: 171.33px;
+    margin: 20px auto;
+    background: rgba(245, 245, 245, 1);
+}
+
+.uploadBtn {
+    position: relative;
+    display: flex;
+    width: 171.33px;
+    height:  29.69px;
+    top: 141.96px;
+    left: -0px;
+    background: rgba(223, 198, 198, 1);
+}
+
+.uploadWrapper {
+    margin: 0 auto;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.uploadtext {
+    width: 80px;
+    height: 15px;
+    font-family: "Plus Jakarta Sans";
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 14.77px;
+    text-align: left;
+    color: #FFF;
+    /* border: 2px solid red; */
+}
+
+.uploadcanvas .uploadBtn input[type = "file"]{
+    position: absolute;
+    transform: scale(2);
+    opacity: 0;
+  }
+
+
+  input[type=file]::-webkit-file-upload-button{
+      cursor: pointer;
+  }
+
+
+ .instructionText {
+    width: 200.53px;
+    height: 35px;
+    font-family: 'Plus Jakarta Sans';
+    font-size: 8.64px;
+    font-weight: 400;
+    line-height: 17.28px;
+    text-align: center;
+    margin: 0 auto;
+    color: rgba(136, 145, 139, 1);
+ } 
+
+ .StudentDetails {
+    width: 1078px;
+    height:  220px;
+    gap: 41px;
+    margin-top: 40px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    /* border: 2px solid red; */
+ }
+
+
+
+

@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+h3 {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: #FF8500;
+  line-height: 40px;
+  margin-left: 50px;
+  display: inline;
+  margin-left: 80px;
+}
+
+.navbar {
+  width: 75%;
+  height: 60px;
+  display: flex;
+  margin-left: px;
+  margin-top: 0px;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0;
+
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  width: 261px;
+  height: 60px;
+  padding: 17px 0px 3px 0px;
+  margin-left: px;
+  gap: 0px;
+  opacity: 0px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 44px 0px #00000008;
+}
+
+.searchbar {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  padding: 0 15px;
+  background-color: #F5F5F5;
+  width: 544px;
+  height: 40px;
+  border-radius: 8px;
+  border: 1px solid #CCDAD1;
+  margin-left: 393px;
+}
+
+.input {
+  background: #F5F5F5;
+  width: 544px;
+  border-radius: 8px;
+  border: none;
+  height: 38px;
+  font-size: 14px;
+  color: #DFC6C6;
+  margin-left: 5px;
+}
+
+input:focus {
+  outline: none;
+}
+
+
+
+.icon {
+  color: #FF8500;
+}
+
+.leftside {
+  display: flex;
+  align-items: center;
+  width: 347px;
+  height: 60px;
+  margin-left: 100px;
+  /* padding: 0px 21px 0px 56px; */
+
+}
+
+.img1 {
+  width: 40px;
+  height: 40px;
+  margin-top: 11px;
+  margin-left: 11px;
+  margin-right: 10px;
+  border-radius: 20px;
+}
+
+.img2 {
+  margin-left: 11px;
+  border-radius: 10px;
+  width: 18px;
+  height: 19px;
+  margin-top: 11px;
+}
+
+
+.profile {
+  width: 174px;
+  height: 60px;
+  margin-top: 10px;
+  display: flex;
+}
+
+.name {
+  font-size: 14px;
+  color: black;
+  line-height: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin-left: 20px;
+  text-wrap: nowrap;
+}
+
+.texts {
+  width: 82px;
+  height: 44px;
+  padding: 0;
+  display: inline;
+  margin-top: 10px;
+}
+
+.img3 {
+  width: 40px;
+  height: 50px;
+  margin-top: 10px;
+}
+
+.man {
+  width: 40px;
+}
+
+.admin {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 12px;
+  color: #88918B;
+  margin-top: 4px;
+  line-height: 20px;
+  margin-left: 20px;
+}
+
+.arrow {
+  font-size: 30px;
+  margin-top: 10px;
+  margin-left: 10px;
+}

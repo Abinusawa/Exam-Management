@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.App {
+  max-width: 100%;
+  /* margin: 0 ; */
+  /* padding: 2rem; */
+  font-family: 'Plus Jakarta Sans';
+  /* text-align: center; */
+  background-color: var(--primary-color-0);
+  /* background: repeat; */
+  overflow: auto;
+  
+}
+
+
+@media screen and (max-width: 600px) {
+   .App {
+    max-width: 600px;
+   }
+
+}
+
+
+

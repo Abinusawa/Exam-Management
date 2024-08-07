@@ -1,0 +1,15 @@
+/* --- Created a new project --- */
+npm create vite@Exam-Management
+cd Exam-Management
+npm install
+/* --- Created a new project End --- */
+
+>>> Index.css 
+--(created Vars used accross the page)
+	
+                     || Page || Responsiveness || API Calls
+>>> 1. Login Page       *             *                      
+>>> 2. Dashboard        *             *
+>>> 3. SubjectLists     *
+>>> 4. TopicLists       *
+>>> 5. QuestionBank     *

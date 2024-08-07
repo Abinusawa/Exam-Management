@@ -1,0 +1,59 @@
+.container {
+    max-width: 950px;
+    height: auto;
+    margin: 0 20px;
+    /* gap: 13px; */
+    /* border: 2px solid red; */
+}
+
+.titleContainer {
+    display: flex;
+    width: 940px;
+    margin: 20px 10px;
+    height: 40px;
+    gap: 630px ;
+    /* border: 2px solid green; */
+}
+
+.subject {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 40px;
+    text-align: left;
+}
+
+.subSubList {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 40px;
+    margin-left: 55px;
+    text-align: left;
+}
+
+.buttonGroup {
+    display: flex;
+    width: 950px;
+    height: 45px;
+    margin-top: 20px;
+    margin-left: 10px;
+    gap: 220px;
+}
+
+.farLeft {
+    display: flex;
+    width:  515px;
+    height: 45px;
+    margin-left: 0px;
+    justify-content: space-between;
+    /* gap: 17px; */
+    /* border: 2px solid green; */
+}
+
+.tableContainer {
+    width: 980px;
+    height: 760px;
+    margin: 50px 5px;
+    background-color: white;
+    padding-top: 20px;
+    /* border: 2px solid blue; */
+}

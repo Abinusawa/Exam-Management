@@ -1,0 +1,160 @@
+.Container {
+    max-width: 950px;
+    height: auto;   
+    /* border: 2px solid green; */
+}
+
+/* * {
+    border: 1px solid green;
+} */
+
+.TitleContainer {
+    width: 900px;
+    height:  40px;
+    margin: 0px 20px;
+    align-items: center;
+    display: flex;
+    gap: 650px;
+    /* border: 2px solid red; */
+}
+
+.Welcome {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+}
+
+.subTitle {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 15px;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.DashboardSummary{
+    max-width:  920px;
+    height:  212px;
+    margin-top: 0px;
+    margin-left: 15px;
+    /* border: 2px solid blue; */
+}
+
+.ExamInfo {
+    /* width: 1096px; */
+    /* height: 933px; */
+    /* margin-top: 20px; */
+    /* margin-left: 15px; */
+    margin: 20px 15px;
+    gap: 18px;
+    display: flex;
+    /* border: 2px solid red; */
+}
+
+
+.leftSide {
+    width: 623px;   
+    height: auto;
+    /* border: 2px solid green; */
+}
+
+.ExamDetails {
+    margin-top: 0px;
+   
+}
+
+
+.examsAvailable {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.viewAll {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.Activity {
+    width:  623px;
+    height:  272.59px;
+    border-radius: 6px ;
+    margin-top: 25px;
+    background: var(--primary-color-2);
+    /* border: 2px solid red; */
+    box-shadow: 0px 0px 30px 0px rgba(1, 41, 112, 0.1);
+}
+
+.activityTitle {
+    display: flex;
+    gap: 342px;
+    margin-left: 20px;
+    padding-top: 0.5rem;
+}
+
+.today {
+    color: rgb(21, 190, 18);
+
+}
+
+
+
+
+/* .completedExamDetails {
+    margin-right: 500px;
+} */
+
+@media screen and (min-width: 600px) {
+    .ExamInfo {
+        width: 900px;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .Container {
+       width: 350px;     
+       /* margin: 0px auto; */
+    }
+    .TitleContainer {
+        width: 200px;
+        /* margin-left: 102px; */
+        margin-top: 20px;
+        /* border: 2px solid red; */
+    }
+    .subTitle {
+        display: none;
+    }
+    .DashboardSummary {
+        /* width: 350px; */
+        height: auto;
+        margin: 20px auto;
+        /* border: 2px solid red; */
+    }
+    .ExamInfo {
+        /* border: 2px solid green; */
+        width: 350px;
+        /* margin: 0 auto; */
+        display: block;
+        flex: none;
+        flex-basis: auto;    
+    }
+    .leftSide {
+        margin: 10px auto;
+    }
+    .rightSide {
+        width: 350px;
+        /* border: 2px solid blue; */
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .ExamInfo {
+        border: 2px solid red;
+    }
+ 
+}

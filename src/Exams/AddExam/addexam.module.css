@@ -1,0 +1,181 @@
+.Container {
+    width: 1160px;
+    height: 1199px;
+    /* padding: 30px 10px 0px 10px; */
+    gap: 13px;
+    /* border: 2px solid red; */
+}
+
+.HeaderTitles {
+    width: 1140px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 14px;
+    /* gap: 825px; */
+    /* border: 2px solid blue; */
+}
+
+.subTitle {
+    padding-top: 1rem;
+}
+
+.previewgroup {
+    display: flex;
+    gap: 10px;
+}
+
+.circle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #f0f0f0;
+    border: 2px solid #ccc;
+    font-size: 14px;
+    font-weight: bold;
+    color: #bab8b8;
+    text-align: center;
+  }
+
+.basicDetails {
+    width: 1140px;
+    height: 45px;
+    display: flex;
+    background-color: white;
+    gap: 42px;
+    margin-left: 14px;
+    /* border: 2px solid green; */
+    padding: 10px 10px 0px 10px;
+    margin-top: 5px;
+}
+
+.checkbox {
+    display: flex;
+    gap: 5px;
+}
+
+.checkboxShoo {
+   margin-top: 2px;
+}
+
+.checkboxText {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+}
+
+.preview {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: rgba(136, 145, 139, 1);
+
+}
+
+.mainBody {
+    width: 1140px;
+    height: 1020px;
+    margin-top: 50px;
+    margin-left: 10px;
+    border-radius: 6px;
+    background-color: white;
+    /* padding: 14px 57px 97px 24px; */
+    /* border: 2px solid rgb(19, 15, 15); */
+}
+
+.form {
+    width:  1059px;
+    height:  970px;
+    margin-top: 14px;
+    margin-left: 24px;
+    padding-top: 20px;
+    /* gap: 111px; */
+    /* border: 2px solid blue; */
+}
+
+.DetailsInput {
+    width: 1059px;
+    height: 271px;
+    /* border: 2px solid rgb(60, 92, 12); */
+    /* gap: 33px; */
+}
+
+.input {
+    padding-top: 20px;
+    padding-left: 20px;
+    width: 300px;
+    
+}
+.inputSchedule {
+    padding-top: 20px;
+    padding-left: 20px;
+    width: 200px;
+    
+}
+
+.forminputs {
+    width:  1,059px;
+    height: 214px;
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 2px solid black; */
+    /* gap: 57px; */
+
+}
+
+
+.input1Label {
+    padding-bottom: 0.5rem;
+}
+
+.ExamDetails {
+    padding-left: 1.2rem;
+}
+
+.scheduleInput {
+    width: 687px;
+    height: 148px;
+    /* gap: 33px; */
+
+}
+
+
+.QuestionInput {
+    width: 687px;
+    height:  48px;
+    margin-top: 10px;
+    /* gap: 33px; */
+
+}
+
+.FileInput {
+    width: 1,059px;
+    height: 103px;
+    margin-top: 150px;
+    /* gap: 33px; */
+}
+
+.UploadDetails {
+    padding-left: 1.2rem;
+}
+
+.inputUpload {
+    background: none;
+    margin-top: 50px;
+    margin-left: 300px;
+    align-items: center;
+}
+
+.formButtons {
+    width: 377px;
+    height: 50px;
+    margin-top: 100px;
+    display: flex;
+    margin-left: 20px;
+    gap: 117px;
+}

@@ -1,0 +1,15 @@
+.logo_container {
+  width: 250px;
+  height: 60px;
+  padding: 17px 50px 3px 0px;
+  /* border: 2px solid red; */
+  /* background-color: white; */
+}
+.logo_container h1 {
+  font-family: "Plus Jakarta Sans";
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 40px;
+  text-align: center;
+  color: blue;
+}

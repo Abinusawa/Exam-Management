@@ -1,0 +1,115 @@
+.container {
+    width: 348px;
+    height: 89px;
+    border-radius: 6px;
+    /* border: 2px solid red ; */
+    display: inline-flex;
+    flex-wrap: 1;
+    margin-right: 15px;
+    margin-top: 15px;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 0px 31px 3px rgba(44, 50, 63, 0.02);
+
+}
+
+.cardContainer {
+    width: 297.77px;
+    height: 59px;
+    display: flex;
+    margin-top: 15px;
+    margin-left: 25px;
+}
+
+.leftSide {
+    width:  185px;
+    height:  58.09px;
+    margin-top: -5px;
+    margin-left: 15px;
+}
+
+.Title {
+    font-family: "Plus Jakarta Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.amount {
+    font-family: "Plus Jakarta Sans";
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 40px;
+    text-align: left;
+
+}
+
+.rightSide {
+    width: 50px;
+    height: 50px;
+    border-radius: 6px;
+    background: rgba(138, 139, 143, 0.1);
+}
+
+.imgProp {
+    width: 30px;
+    height: 32px;
+    margin-top: 10px;
+    margin-left: 13px;
+}
+
+
+
+
+
+
+@media screen and (min-width: 600px) {
+    .container {
+        width: 280px;
+        height: 89px;
+        margin: 15px 25px 0px 0px;    
+    }
+    
+    .cardContainer {
+        margin-top: 15px;
+        gap: 10px;
+    }
+    
+    .leftSide {
+        width:  150px;
+    }
+    
+    .Title {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    
+    .amount {
+        font-size: 16px;
+        line-height: 30px;
+    }
+    
+    .rightSide {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .imgProp {
+        width: 24px;
+        height: 24px;
+        position: relative;
+        top: 0px;
+        left: -5px;
+    }
+    
+    
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        width: 320px;
+        height: 123px;
+        margin: 10px 20px 20px 18px ;
+        /* border: 2px solid red; */
+    }
+}

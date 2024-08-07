@@ -1,0 +1,134 @@
+.container {
+    /* border: 2px solid red; */
+    width: 621px;
+    height: 350px;
+    margin-top: 10px;
+    background: white;
+}
+
+.Top_Title {
+    width: 519px;
+    height: 24px;
+    display: flex;
+    gap: 400px;
+    margin-left: 20px;
+    padding-top: 1rem;
+}
+
+
+
+.Inner_container {
+    width: 516px;
+    height: 270px;
+    border-radius: 6px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border: 1px solid rgba(136, 145, 139, 0.1);
+    box-shadow: 0px 2px 4px 0px rgba(193, 193, 193, 0.15);
+
+}
+
+
+.innerHug {
+    width:  452px;
+    height: 191px;
+    margin-left: 20px;
+    margin-top: 15px;
+    /* border: 2px solid red ; */
+    /* gap: 14px; */
+}
+
+.Title {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+}
+
+.start, .end {
+    display: flex;
+    width: 350px;
+    height: 24px;
+    gap: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    margin-top: 10px;
+    color: rgba(136, 145, 139, 1);
+}
+
+
+.statusText{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.ExamButton {
+    background: none;
+    border: 2px solid rgba(136, 145, 139, 1);
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 145px;
+    height: 40px;
+    color: rgba(136, 145, 139, 1);
+}
+
+.ViewDetails_Button {
+    background: rgba(0, 40, 253, 1);
+    border: 2px solid rgba(136, 145, 139, 1);
+    border-radius: 5px;
+    width: 186px;
+    height: 40px;
+    color: #FFFFFF;
+    margin-left:20px;
+    cursor: pointer;
+}
+
+
+@media screen and (min-width: 600px) {
+    .container {
+        /* border: 2px solid yellow; */
+        width: 460px;
+        margin-top: 10px;
+    }
+    .Top_Title {
+        width: 400px;
+        gap: 270px;
+        /* border: 2px solid red; */
+    }
+    .Inner_container {
+        width: 400px;
+        /* border: 2px solid red; */
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        /* border: 2px solid yellow; */
+        width: 340px;
+        margin-top: 10px;
+    }
+    .Top_Title {
+        width: 300px;
+        height: auto;
+        gap: 180px;
+        padding: 1px auto;
+        /* border: 2px solid red; */
+    }
+    .Inner_container {
+        width: 300px;   
+    }
+    .start, .end {
+        width: 300px;
+        gap: 5px;
+        font-size: 14px;
+    }
+    
+}
+
+

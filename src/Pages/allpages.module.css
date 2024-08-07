@@ -1,0 +1,69 @@
+
+.AllComponents {
+    display: flex;
+    max-width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    /* background: white; */
+    /* border: 2px solid red; */
+}
+
+.sidebarContainer {
+    width: 257px;
+    height:  1282.94px;
+    background-color: white;
+    position: fixed;
+    /* display: none; */
+}
+
+.LeftContainer {
+    /* margin-left: 260px; */
+    margin: 0 220px;
+    /* border: 2px solid yellow; */
+    position: static;
+    /* border: 2px solid red; */
+}
+
+/* .NavbarContainer {
+    margin-left: -20px;
+} */
+
+
+
+@media screen and (min-width: 600px) {
+    .AllComponents {
+        /* border: 2px solid red; */
+        /* max-width: 1200px; */
+    }
+    .sidebarContainer {
+        width: 220px;
+        /* border: 2px solid red;        */
+    }
+    .LeftContainer {
+
+    }
+}
+
+@media screen and (max-width: 600px) {
+   
+    .AllComponents {
+        width: 350px;
+        height: auto;
+        margin: 0 auto;
+        /* border: 2px solid red;  */
+    }
+    .sidebarContainer {
+       display: none;
+    }
+    .LeftContainer {
+        margin: 0 auto;
+    }
+    .NavbarContainer {
+        position: fixed;
+    }
+    .Routes {
+        margin-top: 80px;
+    }
+
+}
+

@@ -1,0 +1,39 @@
+.navigationLink {
+  /* background-color: brown; */
+  /* width: 250px; */
+  /* height: 100vh; */
+  /* padding: 1rem; */
+}
+
+.navigationLink ul {
+  /* background-color: orangered; */
+  padding: 5px;
+}
+.navigationLink li {
+  list-style: none;
+  font-family: "Plus Jakarta Sans";
+  font-size: 13px;
+  line-height: 1.5;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  font-weight: 200;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+
+@media screen and (min-width: 600px) {
+  .navigationLink {
+    /* border: 2px solid red; */
+  }
+}
+
+/* @media screen and (max-width: 600px) {
+  .navigationLink {
+    display: none;
+  }
+} */
+
+

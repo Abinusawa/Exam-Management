@@ -1,0 +1,226 @@
+.AddSubContainer {
+    width: 1140px;
+    height: 919px;
+    /* top: -421px; */
+    /* margin-left: 2486px; */
+    border-radius: 6px;
+    background-color: var(--primary-color-2);
+    border: 2px solid blue;
+}
+
+.Close {
+    width: 100px;
+    height: 40px;
+    margin-top: 22px;
+    margin-left: 35px;
+    padding: 4px 0px 0px 10px;
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 550;
+    cursor: pointer;
+    border-radius: 8px;
+    border: 2px solid rgb(184, 177, 177);
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.AddSubject {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 40px;
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 31px;
+}
+
+.form {
+    width: 850px;
+    height: 740px;
+
+    margin-top: 5px;
+    margin-left: 160px;
+    /* padding: 12px 0px 0px 0px; */
+    gap: 20px;
+    /* border: 2px solid red; */
+    display: flex;
+}
+
+.subjectDrpdwn {
+    width: 640px;
+    height: 127.19px;
+    border-radius: 8px;
+    border: 1px solid rgba(136, 145, 139, 0.2);
+    display: flex;
+    gap: 400px;
+}
+
+.Subject, .iconSub {
+    margin-left: 25px;
+    margin-top: 29px;
+}
+
+.fomatArea {
+    display: flex;
+    gap: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+textarea {
+    width: 378px;
+    height: 76px; /* Adjust the height as needed */
+    resize: none;
+    outline: none;
+    /* border: 0px, 0px, 1px, 0px; */
+    border-radius: 6px;
+    border-bottom: 3px solid rgba(136, 145, 139, 1);
+    padding-left: 13px;
+    padding-top: 12px;
+}
+
+.formatOptions {
+    display: flex;
+    width: 90px;
+    height:  24px;
+    gap: 20px;
+    margin-left: 5px;
+    color: rgba(136, 145, 139, 1);
+    cursor: pointer;
+    /* border: 2px solid red; */
+}
+
+.questionOptions {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+
+
+.underline {
+    text-decoration: underline;
+}
+
+.elipse {
+    width: 15px;
+    height: 15px;
+    margin-top: 1px;
+    margin-left: 14px;
+    border-radius: 10px;
+    border: 1px 0px 0px 0px;
+    background: rgba(136, 145, 139, 1);
+    border: 1px solid rgba(0, 0, 0, 1)
+}
+
+.formBox {
+    width: 640px;
+    height: 471px;
+    margin-top: 20px;
+    /* gap: 88px; */
+    border-radius: 8px;
+    border: 1px solid rgba(136, 145, 139, 0.2)
+}
+
+.hrLine {
+    width: 500px;
+    height: 2px;
+    margin-top: 50px;
+    margin-left: 60px;
+    border: 1px solid rgba(136, 145, 139, 0.2)
+
+}
+
+.actionIcons {
+    display: flex;
+    gap: 10px;
+    margin-left: 300px;
+    margin-top: 10px;
+}
+
+.actionicon {
+    height: 24px;
+    width: 24px;
+    cursor: pointer;
+}
+
+.actBtnContainer {
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+
+/* --- ADD Confirm New Question CSS --- */
+
+.ConfirmContainer {
+    width: 725px;
+    height: 352px;
+    /* top: 28px;
+    left: 22944px; */
+    padding: 10px 0px;
+    border-radius: 6px;
+    background-color: var(--color-bg);
+    /* border: 2px solid red; */
+}
+
+.innerContainer {
+    width:  285px;
+    height: 140px;
+    /* border: 2px solid red ; */
+    margin-top: 70px;
+    margin-left: 220.5px;
+    /* gap: 50px; */
+}
+
+.actBtns {
+    width: 280px;
+    height: 50px;
+    display: flex;
+    margin-top: 60px;
+    justify-content: space-between;
+}
+
+
+.confirmAction {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 40px;
+    text-align: left;
+    color: rgba(136, 145, 139, 1);
+
+}
+
+/* --- ADD Question Success CSS --- */
+
+.successContainer {
+    width: 775px;
+    height: 802px;
+    /* top: -226px;
+    left: 23753px; */
+    gap: 40px;
+    border-radius: 6px;
+    background-color: var(--color-bg);
+    /* border: 2px solid blue; */
+}
+
+
+.successTitle {
+    width: 630px;
+    height: 96px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    color: rgba(23, 187, 39, 1);
+}
+
+.successText {
+    width: 472px;
+    height: 48px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    margin-left: 70px;
+    margin-top: 30px;
+}
+
+/* --- ADD Question Success CSS --- */

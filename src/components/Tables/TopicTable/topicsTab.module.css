@@ -1,0 +1,92 @@
+.tableMain {
+    /* border: 2px solid red; */
+    margin-top: 20px;
+}
+
+.btnGroup {
+    display: flex;
+    width: 1140px;
+    height: 38px;
+    margin-top: 28px;
+    margin-left: 0px;
+    justify-content: space-between;
+    /* border: 2px solid blue; */
+}
+
+.subjectList {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    margin-top: 8px;
+}
+
+.twoButtons {
+    display: flex;
+    gap: 20px;
+}
+
+.tablePagin {
+    width: 1140px;
+    display: flex;
+    justify-content: flex-start;
+    height: 37px;
+    margin-top: 60px;
+    margin-left: 12px;
+    padding: 0px 16.01px 0.5px 0px;
+    
+}
+
+.p3 {
+    font-family: "Plus Jakarta Sans";
+    font-size: 12px;
+    font-weight: 400px;
+    line-height: 24px;
+    width: 153px;
+    height: 24px;
+}
+
+.Btn {
+    width: 208.99px;
+    height: 36.5px;
+    margin-left: 750px;
+    display: flex;
+}
+
+.Btn1 {
+    width: 83.72px;
+    height: 36.5px;
+    padding: 5.75px 21.72px 6.75px 13px;
+    border-radius: 4px 0px 0px 4px;
+    border: 1px solid #f5f5f5;
+    background: rgb(248, 248, 248);
+}
+
+.Btn2 {
+    width: 34.44px;
+    height: 36.5px;
+    padding: 5.75px 0px 6.75px 0px;
+    border: 1px solid rgba(255, 133, 0, 1);
+    background: rgb(22, 25, 248);
+    color: white;
+}
+
+.Btn3 {
+    width: 34.44px;
+    height: 36.5px;
+    padding: 5.75px 0px 6.75px 0px;
+    border: 1px solid rgba(255, 133, 0, 1);
+    color: gray;
+}
+
+.Btn4 {
+    width: 56.99px;
+    height: 36.5px;
+    border-radius: 0px 4px 4px 0px;
+    border: 1px solid #f5f5f5;
+    background: rgb(248, 248, 248);
+}
+
+.Btn1, .Btn2, .Btn3, .Btn4 {
+    cursor: pointer;
+}

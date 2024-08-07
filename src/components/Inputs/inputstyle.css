@@ -1,0 +1,24 @@
+.formInput {
+    display: flex;
+    align-items: center;
+    /* width: 480px; */
+    /* height: 50px; */
+    /* background-color: #eaeaea; */
+    border-radius: 6px;
+  }
+  
+  .formInput input {
+    /* border: none; */
+    /* outline: none; */
+    background: transparent;
+    /* color: #ffffff; */
+    /* font-size: 14px; */
+    padding-left: 10px;
+    /* width: 480px; */
+  }
+  
+  .formInput ::placeholder {
+    /* font-size: 14px; */
+    font-stretch: normal;
+    font-weight: 400px;
+  }
