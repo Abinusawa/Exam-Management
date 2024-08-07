@@ -2,7 +2,7 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import style from './login.module.css'
-import data from "../DataArray/usersDB";
+import data from "../DataArray/usersDB.json";
 
 // Button 
 import Button from '../components/Button/Button'
@@ -37,6 +37,8 @@ const Login = () => {
             }, 10000); // 10 seconds
             return;
         }
+
+        
 
         try {
             if (email === data.user.email && password === data.user.password) {
