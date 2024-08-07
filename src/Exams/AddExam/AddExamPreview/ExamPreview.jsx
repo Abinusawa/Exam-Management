@@ -1,5 +1,5 @@
 import React from 'react'
-import style from './preview.module.css'
+import style from './Preview.module.css'
 import ClockIcon from '../../../assets/dashboardAssets/timeClock.png'
 import ClaendarIcon from '../../../assets/calendar.png'
 import Button from '../../../components/Button/Button'
